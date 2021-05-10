@@ -71,3 +71,29 @@ img {
 .clear {
   clear: both;
 }
+
+/*responsive page*/
+
+@media screen and (max-width: 420px) {
+
+#lezioni .row>.left,
+#lezioni .row>.right {
+  width: 50%;
+  float: none;
+  margin: auto;
+}
+
+#why .row,
+#lezioni .row{
+  background-color: beige;
+}
+
+#steps .row>.left,
+#steps .row>.central,
+#steps .row>.right {
+  float: none;
+  width: 33%;
+  margin: auto;
+}
+
+}
